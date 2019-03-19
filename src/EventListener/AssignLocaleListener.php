@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Locastic\ApiPlatformTranslationBundle\EventListener;
+namespace Locastic\Bundle\ApiPlatformTranslationBundle\EventListener;
 
 use Doctrine\Common\Persistence\Event\LifecycleEventArgs;
-use Locastic\ApiPlatformTranslationBundle\Model\TranslatableInterface;
-use Locastic\ApiPlatformTranslationBundle\Translation\Translator;
+use Locastic\Bundle\ApiPlatformTranslationBundle\Model\TranslatableInterface;
+use Locastic\Bundle\ApiPlatformTranslationBundle\Translation\Translator;
 
 /**
  * Class AssignLocaleListener

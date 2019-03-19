@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Locastic\ApiPlatformTranslationBundle\Translation;
+namespace Locastic\Bundle\ApiPlatformTranslationBundle\Translation;
 
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\Translation\TranslatorInterface;

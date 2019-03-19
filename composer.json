@@ -1,11 +1,16 @@
 {
   "name": "locastic/api-platform-translation-bundle",
   "description": "Translation bundle for Api platform based on Sylius translation",
+  "type": "symfony-bundle",
   "license": "MIT",
   "authors": [
     {
       "name": "Paula",
       "email": "paula@locastic.com"
+    },
+    {
+      "name": "Luca",
+      "email": "luca.nardelli@protonmail.com"
     }
   ],
   "require": {
@@ -18,12 +23,12 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Locastic\\ApiPlatformTranslationBundle\\": "src/"
+      "Locastic\\Bundle\\ApiPlatformTranslationBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Locastic\\ApiPlatformTranslationBundle\\Tests\\": "tests/"
+      "Locastic\\Bundle\\ApiPlatformTranslationBundle\\Tests\\": "tests/"
     }
   },
   "extra": {

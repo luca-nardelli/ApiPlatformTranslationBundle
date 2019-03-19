@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Locastic\ApiPlatformTranslationBundle\Tests\Fixtures;
+namespace Locastic\Bundle\ApiPlatformTranslationBundle\Tests\Fixtures;
 
-use Locastic\ApiPlatformTranslationBundle\Model\AbstractTranslation;
+use Locastic\Bundle\ApiPlatformTranslationBundle\Model\AbstractTranslation;
 
 /**
  * Class DummyTranslation

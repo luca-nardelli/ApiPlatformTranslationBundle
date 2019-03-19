@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Locastic\ApiPlatformTranslationBundle\Model;
+namespace Locastic\Bundle\ApiPlatformTranslationBundle\Model;
 
 /**
  * @author Gonzalo Vilaseca <gvilaseca@reiss.co.uk>

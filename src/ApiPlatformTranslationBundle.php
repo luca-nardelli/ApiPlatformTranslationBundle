@@ -1,6 +1,6 @@
 <?php
 
-namespace Locastic\ApiPlatformTranslationBundle;
+namespace Locastic\Bundle\ApiPlatformTranslationBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

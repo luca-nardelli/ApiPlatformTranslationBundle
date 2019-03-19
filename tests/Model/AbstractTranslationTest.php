@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Locastic\ApiPlatformTranslationBundle\Tests\Model;
+namespace Locastic\Bundle\ApiPlatformTranslationBundle\Tests\Model;
 
-use Locastic\ApiPlatformTranslationBundle\Model\TranslatableInterface;
-use Locastic\ApiPlatformTranslationBundle\Tests\Fixtures\DummyTranslatable;
-use Locastic\ApiPlatformTranslationBundle\Tests\Fixtures\DummyTranslation;
+use Locastic\Bundle\ApiPlatformTranslationBundle\Model\TranslatableInterface;
+use Locastic\Bundle\ApiPlatformTranslationBundle\Tests\Fixtures\DummyTranslatable;
+use Locastic\Bundle\ApiPlatformTranslationBundle\Tests\Fixtures\DummyTranslation;
 use PHPUnit\Framework\TestCase;
 
 /**

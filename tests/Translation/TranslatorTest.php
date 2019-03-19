@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Locastic\ApiTranslationBundle\Tests\Translation;
+namespace Locastic\Bundle\ApiTranslationBundle\Tests\Translation;
 
-use Locastic\ApiPlatformTranslationBundle\Translation\Translator;
+use Locastic\Bundle\ApiPlatformTranslationBundle\Translation\Translator;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\ParameterBag;
 use Symfony\Component\HttpFoundation\Request;
