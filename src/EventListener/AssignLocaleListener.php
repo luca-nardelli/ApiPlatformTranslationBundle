@@ -11,7 +11,7 @@ use Locastic\Bundle\ApiPlatformTranslationBundle\Translation\Translator;
 /**
  * Class AssignLocaleListener
  *
- * @package Locastic\ApiPlatformTranslationBundle\EventListener
+ * @package Locastic\Bundle\ApiPlatformTranslationBundle\EventListener
  */
 class AssignLocaleListener
 {

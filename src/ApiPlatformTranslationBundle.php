@@ -7,7 +7,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 /**
  * Class ApiPlatformTranslationBundle
  *
- * @package Locastic\ApiPlatformTranslationBundle
+ * @package Locastic\Bundle\ApiPlatformTranslationBundle
  */
 class ApiPlatformTranslationBundle extends Bundle
 {

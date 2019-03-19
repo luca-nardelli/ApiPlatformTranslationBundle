@@ -32,7 +32,7 @@ Implementation:
 - Extend your model/resource with `Locastic\ApiTranslationBundle\Model\AbstractTranslatable`
 - Add createTranslation method which returns new object of translation Entity. Example:
 ``` php
-use Locastic\ApiPlatformTranslationBundle\Model\AbstractTranslatable;
+use Locastic\Bundle\ApiPlatformTranslationBundle\Model\AbstractTranslatable;
 
 class Post extends AbstractTranslatable
 {
@@ -47,7 +47,7 @@ class Post extends AbstractTranslatable
 
 - Add `translations` serialization group to translations relation:
 ``` php
-use Locastic\ApiPlatformTranslationBundle\Model\AbstractTranslatable;
+use Locastic\Bundle\ApiPlatformTranslationBundle\Model\AbstractTranslatable;
 
 class Post extends AbstractTranslatable
 {
@@ -63,7 +63,7 @@ class Post extends AbstractTranslatable
 - Add virtual fields for all translatable fields, and add read serialization group. 
 Getters and setters must call getters and setters from translation class. Example:
 ``` php
-use Locastic\ApiPlatformTranslationBundle\Model\AbstractTranslatable;
+use Locastic\Bundle\ApiPlatformTranslationBundle\Model\AbstractTranslatable;
 use Symfony\Component\Serializer\Annotation\Groups;
 
 class Post extends AbstractTranslatable
@@ -94,7 +94,7 @@ class Post extends AbstractTranslatable
 
 **Translation entity:**
 - Add entity with all translatable fields. Name needs to be name of translatable entity + Translation
-- Extend `Locastic\ApiPlatformTranslationBundle\Model\AbstractTranslation`
+- Extend `Locastic\Bundle\ApiPlatformTranslationBundle\Model\AbstractTranslation`
 - Add serialization group `translations` to all fields and other read/write groups.
 Example Translation entity:
 ``` php

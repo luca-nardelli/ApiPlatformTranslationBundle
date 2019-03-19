@@ -1,13 +1,13 @@
 services:
     locastic_api_platform_translation.translation.translator:
-        class: Locastic\ApiPlatformTranslationBundle\Translation\Translator
+        class: Locastic\Bundle\ApiPlatformTranslationBundle\Translation\Translator
         arguments:
             - '@translator'
             - '@request_stack'
             - '%locale%'
 
     locastic_api_platform_translation.listener.assign_locale:
-        class: Locastic\ApiPlatformTranslationBundle\EventListener\AssignLocaleListener
+        class: Locastic\Bundle\ApiPlatformTranslationBundle\EventListener\AssignLocaleListener
         arguments:
             - '@locastic_api_platform_translation.translation.translator'
         tags:

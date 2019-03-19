@@ -10,7 +10,7 @@ use Symfony\Component\Translation\TranslatorInterface;
 /**
  * Class Translator
  *
- * @package Locastic\ApiPlatformTranslationBundle\Translation
+ * @package Locastic\Bundle\ApiPlatformTranslationBundle\Translation
  */
 class Translator implements TranslatorInterface
 {

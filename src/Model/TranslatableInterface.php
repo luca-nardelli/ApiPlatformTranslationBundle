@@ -9,7 +9,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 /**
  * Interface TranslatableInterface
  *
- * @package Locastic\ApiPlatformTranslationBundle\Model
+ * @package Locastic\Bundle\ApiPlatformTranslationBundle\Model
  */
 interface TranslatableInterface
 {

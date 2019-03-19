@@ -15,7 +15,7 @@ use Symfony\Component\Translation\TranslatorInterface;
  * Class TranslatorTest
  *
  * @package UnitTests\TranslationBundle\Translation
- * @covers \Locastic\ApiPlatformTranslationBundle\Translation\Translator
+ * @covers \Locastic\Bundle\ApiPlatformTranslationBundle\Translation\Translator
  */
 class TranslatorTest extends TestCase
 {

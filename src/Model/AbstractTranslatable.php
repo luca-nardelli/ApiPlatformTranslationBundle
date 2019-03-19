@@ -7,7 +7,7 @@ namespace Locastic\Bundle\ApiPlatformTranslationBundle\Model;
 /**
  * Class AbstractTranslatable
  *
- * @package Locastic\ApiPlatformTranslationBundle\Model
+ * @package Locastic\Bundle\ApiPlatformTranslationBundle\Model
  */
 abstract class AbstractTranslatable implements TranslatableInterface
 {

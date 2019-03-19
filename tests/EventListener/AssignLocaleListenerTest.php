@@ -15,7 +15,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class AssignLocaleListenerTest
  *
- * @package Locastic\ApiPlatformTranslationBundle\Tests\EventListener
+ * @package Locastic\Bundle\ApiPlatformTranslationBundle\Tests\EventListener
  */
 class AssignLocaleListenerTest extends TestCase
 {

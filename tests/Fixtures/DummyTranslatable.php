@@ -10,7 +10,7 @@ use Locastic\Bundle\ApiPlatformTranslationBundle\Model\TranslationInterface;
 /**
  * Class DummyTranslatable
  *
- * @package Locastic\ApiPlatformTranslationBundle\Tests\Fixtures
+ * @package Locastic\Bundle\ApiPlatformTranslationBundle\Tests\Fixtures
  */
 class DummyTranslatable extends AbstractTranslatable
 {
