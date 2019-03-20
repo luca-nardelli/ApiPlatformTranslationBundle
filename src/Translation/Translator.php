@@ -107,4 +107,12 @@ class Translator implements TranslatorInterface
     {
         return $this->translator->getLocale();
     }
+
+    /**
+     * @return string
+     */
+    public function getDefaultLocale(): string
+    {
+        return $this->defaultLocale;
+    }
 }

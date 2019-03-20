@@ -41,14 +41,6 @@ class AssignLocaleListener
     /**
      * @param LifecycleEventArgs $args
      */
-    public function prePersist(LifecycleEventArgs $args): void
-    {
-        $this->assignLocale($args);
-    }
-
-    /**
-     * @param LifecycleEventArgs $args
-     */
     private function assignLocale(LifecycleEventArgs $args): void
     {
         $object = $args->getObject();
@@ -58,8 +50,17 @@ class AssignLocaleListener
         }
 
         $localeCode = $this->translator->loadCurrentLocale();
+        $defaultLocale = $this->translator->getDefaultLocale();
 
         $object->setCurrentLocale($localeCode);
-        $object->setFallbackLocale($localeCode);
+        $object->setFallbackLocale($defaultLocale);
+    }
+
+    /**
+     * @param LifecycleEventArgs $args
+     */
+    public function prePersist(LifecycleEventArgs $args): void
+    {
+        $this->assignLocale($args);
     }
 }

@@ -64,6 +64,8 @@ trait TranslatableTrait
             throw new \RuntimeException('No locale has been set and current locale is undefined.');
         }
 
+        // TODO If locale is in the form <langcode>_<countrycode> or <langcode>-<countrycode>, we should fall back to <langcode>, if present
+
         if (isset($this->translationsCache[$locale])) {
             return $this->translationsCache[$locale];
         }
